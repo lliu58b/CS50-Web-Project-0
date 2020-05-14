@@ -54,8 +54,14 @@
 }
 
 .footer {
-  margin-top: 70px;
+  margin-top: 50px;
   text-align: center;
+}
+
+@media (max-width: 572px) {
+  #small_screen {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
