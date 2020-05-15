@@ -61,7 +61,7 @@ a[target=_blank]:after {
 }
 
 #map > img {
-  width: 90%;
+  width: 100%;
   border-radius: 15px;
   margin-bottom: 30px;
 }
