@@ -1,7 +1,7 @@
-$white-color: #E9ECEF;
+$white-color: #e9ecef;
 
 %margin-setter {
-	margin-top: 30px
+	margin-top: 30px;
 }
 
 %gallary {
@@ -16,19 +16,19 @@ $white-color: #E9ECEF;
 
 #subtitle {
 	font-size: 17px;
-	color:grey;
+	color: grey;
 	margin-top: 7px;
 }
 
 div {
-	text-emphasis: none;;
+	text-emphasis: none;
 	.topnav {
 		background-color: $white-color;
 		overflow: hidden;
 		border-radius: 10px;
 		margin-top: 30px;
 	}
-	
+
 	.topnav a {
 		float: left;
 		color: black;
@@ -37,14 +37,14 @@ div {
 		text-decoration: none;
 		font-size: 17px;
 	}
-	
+
 	.topnav a:hover {
 		background-color: $white-color;
 		color: black;
 	}
-	
+
 	.topnav a.active {
-		background-color: #007BFF;
+		background-color: #007bff;
 		color: white;
 	}
 }
@@ -74,12 +74,12 @@ div {
 }
 
 a[target="_blank"]:after {
-	font-family: 'FontAwesome';
-    content: " \f35d";
+	font-family: "FontAwesome";
+	content: " \f35d";
 }
 
 #map > img {
-	width:100%;
+	width: 100%;
 	border-radius: 15px;
 	margin-bottom: 30px;
 }
@@ -91,7 +91,8 @@ table.minimalistBlack {
 	border-collapse: collapse;
 }
 
-table.minimalistBlack td, table.minimalistBlack th {
+table.minimalistBlack td,
+table.minimalistBlack th {
 	border: 1px solid #000000;
 	padding: 7px 10px;
 }
@@ -99,12 +100,12 @@ table.minimalistBlack td, table.minimalistBlack th {
 table.minimalistBlack tbody td {
 	font-size: 13px;
 }
-  
+
 table.minimalistBlack thead {
-	background: #CFCFCF;
-	background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
-	background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
-	background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+	background: #cfcfcf;
+	background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
+	background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
+	background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
 	border-bottom: 3px solid #000000;
 }
 
@@ -129,12 +130,15 @@ table.minimalistBlack tfoot td {
 #gallary1 {
 	@extend %gallary;
 }
+
 #gallary2 {
 	@extend %gallary;
 }
+
 #gallary3 {
 	@extend %gallary;
 }
+
 #gallary4 {
 	@extend %gallary;
 }
